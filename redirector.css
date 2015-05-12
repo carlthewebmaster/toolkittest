@@ -1,0 +1,77 @@
+/* *** Specific elements *** */
+
+/* undo system defaults */
+* { padding: 0px; margin: 0px; border-spacing: 0; }
+
+body {
+    margin: 20px;
+    background: url(img/mini_bg.gif);
+}
+
+h2 { margin: .4em 0; }
+h3 { margin: .2em 0; }
+p { margin: .6em 0 .2em 0; }
+
+#banner-title { color: white; text-align: center; font-size: 24px; }
+
+td#main-content > div { margin-top: 2em; }
+
+table#main-layout { border-collapse: collapse; border: none; }
+
+table.vars-table a { text-decoration: none; border-bottom: 1px dotted gray; }
+table.vars-table tr td:nth-child(2) { font-family: monospace; }
+
+.display-none { display: none; }
+
+
+/* *** Classes *** */
+
+.top-banner { background-color: rgb(54,94,148); color: white; }
+.top-banner table { width: 100%; border-collapse: collapse; border: 0px; }
+.top-banner table td { border: none; s}
+.top-banner a { text-decoration: none; }
+.top-banner :link { color: white; text-decoration: none; }
+
+.logo-container { width: 140px; }
+
+ul.hor-navlist { list-style: none; }
+ul.hor-navlist li { display: inline-block; margin-left: 1em; }
+ul.hor-navlist li:hover { color: yellow; }
+ul.hor-navlist-first { margin-left: 0; }
+
+#main-content { background: white; border: 2px solid gray; margin: 1em 2em; padding: 1em 2em; max-width: 1800px; }
+
+.main-sect-title { font-size: 20px; font-weight: bold; }
+
+.note-label { font-weight: bolder; }
+
+div.separated-section { margin-top: 3em; }
+
+table.vars-table { border-collapse: collapse; max-width: inherit; }
+table.vars-table th, table.vars-table td { border: 1px solid black; padding: 3px; }
+table.vars-table a { text-decoration: none; }
+
+table.full-width = {
+    align: center;
+    border: 0;
+    cellpadding: 0;
+    cellspacing: 0;
+}
+
+img.icon { padding: 10px 20px; }
+
+.indent-1 { padding-left: 30px; }
+.indent-2 { padding-left: 60px; }
+.indent-3 { padding-left: 90px; }
+
+.url-1 { font-size: 16px; }
+.url-2 { font-size: 18px; }
+
+/* URL is inactive, because it is a redirected old-book URL */
+.url-old-book { color: red; }
+
+.test-pass { background-color: rgb(204, 255, 204); }
+.test-fail { background-color: rgb(255, 153, 153); }
+.invalid-input { background-color: rgb(204, 204, 204); }
+
+.bottom-banner { float: right; margin-right: 1em; }
